@@ -3,7 +3,7 @@ body{
     font-size: 18px;
 }
 header, footer{
-    background-color: rgba(225, 136, 128, 0.966);
+    background-color: rgb(235, 120, 94)
 }
 
 #my-image{
@@ -12,4 +12,8 @@ header, footer{
 
 section ul li{
     list-style: square;
+}
+
+section ul li:nth-child(1){
+    background-color:#bab762;
 }
