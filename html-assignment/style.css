@@ -3,7 +3,7 @@ body{
     font-size: 18px;
 }
 header, footer{
-    background-color: rgb(235, 120, 94)
+    background-color: rgb(222, 67, 67)
 }
 
 #my-image{
@@ -15,5 +15,19 @@ section ul li{
 }
 
 section ul li:nth-child(1){
-    background-color:#bab762;
+    background-color:rgb(182, 213, 224);
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    background-color: rgb(235, 229, 185);
+    border: thick double rgb(79, 48, 2);
+}
+
+header nav ul li a:hover{
+    color: rgb(79, 48, 2);
 }
