@@ -7,6 +7,10 @@ header, footer{
     background-color: rgb(222, 67, 67)
 }
 
+.site-title{
+    color: rgb(255, 255, 255);
+}
+
 #my-image{
     box-shadow: 0px 0px 2px 1px black;
 }
