@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    background-color: rgb(242, 239, 212);
 }
 header, footer{
     background-color: rgb(222, 67, 67)
@@ -24,10 +25,10 @@ header nav ul li{
 
 header nav ul li a{
     text-decoration: none;
-    background-color: rgb(235, 229, 185);
+    background-color: rgb(255, 255, 255);
     border: thick double rgb(79, 48, 2);
 }
 
 header nav ul li a:hover{
-    color: rgb(79, 48, 2);
+    color: #f2bf27;
 }
