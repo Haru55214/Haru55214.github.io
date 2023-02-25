@@ -7,3 +7,35 @@ body{
     width: 1020px;
     margin: 0 auto;
 }
+
+/* header */
+.nav li{
+    list-style: none;
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+}
+
+/* main */
+.main{
+    width: 990px;
+    height: 380px;
+}
+.image-small{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    float: left;
+}
+
+/*contact*/
+.contact{
+    width: 970px;
+    height: 425px;
+    border: 1px solid black;
+    margin: auto;
+}
+footer{
+    text-align: right;
+}

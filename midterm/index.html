@@ -9,21 +9,28 @@
 </head>
 <body>
     <div class="wrapper">
+        <!--Title is placed on the image-->
         <header>
-         <h1 id="home">Lone Starfish</h1>
-         <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#story">STORY</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-         </nav>
+            <div class="title">
+                <img class="image-wide" src="images/lone-starfish-wide.jpg" alt="starfish wide">
+                <h1 id="home">Lone Starfish</h1>
+            </div>
+            <!--Styleing with inline-block-->
+             <nav class="nav">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#story">STORY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                 </ul>
+            </nav>
         </header>
-        <main>
+        <!--text wrapping sround the image-->
+        <main class="main">
            <h2 id="story">Life of a Starfish</h2>
-             <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi quidem beatae totam eaque magni quas error, tempora minus? Nostrum at dignissimos soluta alias aperiam iusto quibusdam dolore aut autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam, aut voluptates hic reprehenderit error adipisci vitae eius perspiciatis autem natus fugiat nostrum ducimus inventore quasi et necessitatibus provident vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tenetur, nihil voluptatum fugiat alias voluptatibus a aperiam vero, perspiciatis non ad deserunt veniam consectetur tempore. Reiciendis nesciunt voluptatem ipsam nulla! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium sint minima? Quis temporibus sit accusamus repellendus! Sequi earum excepturi quasi! Nam dicta earum minima voluptatem temporibus veniam adipisci maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi corrupti sunt, temporibus, ullam consequatur velit natus architecto dolore facilis ipsum earum dicta veniam accusamus asperiores dolorem non tenetur nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed hic amet non, fuga dolore! Illo, tempore praesentium laborum unde nulla nam officia aut ad voluptates, similique, aspernatur quam doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates corporis non saepe ea consectetur. Aliquid, earum distinctio ipsum cupiditate a est quam ut perspiciatis ab sint porro, vero saepe.
-             </article>
+           <img class="image-small" src="images/lone-starfish.jpg" alt="starfish small">
+           <article>
+               <p class="main-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi quidem beatae totam eaque magni quas error, tempora minus? Nostrum at dignissimos soluta alias aperiam iusto quibusdam dolore aut autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam, aut voluptates hic reprehenderit error adipisci vitae eius perspiciatis autem natus fugiat nostrum ducimus inventore quasi et necessitatibus provident vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tenetur, nihil voluptatum fugiat alias voluptatibus a aperiam vero, perspiciatis non ad deserunt veniam consectetur tempore. Reiciendis nesciunt voluptatem ipsam nulla! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium sint minima? Quis temporibus sit accusamus repellendus! Sequi earum excepturi quasi! Nam dicta earum minima voluptatem temporibus veniam adipisci maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi corrupti sunt, temporibus, ullam consequatur velit natus architecto dolore facilis ipsum earum dicta veniam accusamus asperiores dolorem non tenetur nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed hic amet non, fuga dolore! Illo, tempore praesentium laborum unde nulla nam officia aut ad voluptates, similique, aspernatur quam doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates corporis non saepe ea consectetur. Aliquid, earum distinctio ipsum cupiditate a est quam ut perspiciatis ab sint porro, vero saepe.</p>
+            </article>
         </main>
         <section>
          <h3>Facts About Starfish</h3>
@@ -35,35 +42,37 @@
          </ul>
         </section>
         <section>
-          <h3 id="contact">Contact to learn more</h3>
-          <form action="index.html" method="get">
-             <div>
-                 <label for="name">Your Name</label>
-                 <input id="name" name="yourname" type="text">
-             </div>
-             <div>
-                 <label for="mail">Your Email</label>
-                 <input id="mail" name="yourmail" type="email">
-             </div>
-             <div>
-                 <label for="message">Your Message</label>
-                 <input id="message" name="yourmessage" type="text">
-             </div>
-             <div>
-                 <p>Would you like to visit the Starfish?</p>
-                 <label for="yes">Yes</label>
-                 <input type="radio" id="yes" name="visit" value="yes">
-
-                 <label for="no">No</label>
-                 <input type="radio" id="no" name="visit" value="no">
-
-                 <label for="maybe">Maybe</label>
-                 <input type="radio" id="maybe" name="visit" value="maybe">
-             </div>
-             <div>
-                 <button type="submit">SEND</button>
-             </div>
-         </form>
+            <h3 id="contact">Contact to learn more</h3>
+            <div class="contact">
+                <form action="index.html" method="get">
+                    <div>
+                        <label for="name">Your Name</label>
+                        <input id="name" name="yourname" type="text">
+                    </div>
+                    <div>
+                        <label for="mail">Your Email</label>
+                        <input id="mail" name="yourmail" type="email">
+                    </div>
+                    <div>
+                        <label for="message">Your Message</label>
+                        <input id="message" name="yourmessage" type="text">
+                    </div>
+                    <div>
+                        <p>Would you like to visit the Starfish?</p>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="visit" value="yes">
+       
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="visit" value="no">
+       
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="visit" value="maybe">
+                    </div>
+                    <div>
+                        <button type="submit">SEND</button>
+                    </div>
+                </form>
+            </div>
      </section>
      <footer>
          &copy;Lone Starfish.
