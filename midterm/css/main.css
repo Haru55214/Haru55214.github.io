@@ -5,10 +5,25 @@ body{
 .wrapper{
     background-color: #d4e9e7;
     width: 1020px;
-    margin: 0 auto;
+    margin: auto;
 }
 
-/* header */
+/* Title */
+.image-wide{
+    width: 100%;
+    height: 340px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    left: 420px;
+    top: 180px;
+}
+
+/* Nav Style:*/
 .nav li{
     list-style: none;
     display: inline-block;
@@ -30,9 +45,9 @@ body{
 }
 
 /*contact*/
-.contact{
-    width: 970px;
-    height: 425px;
+form{
+    width: 960px;
+    height: 420px;
     border: 1px solid black;
     margin: auto;
 }
