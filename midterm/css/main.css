@@ -59,12 +59,54 @@ h1{
     float: left;
 }
 
-/*contact*/
+/*contact styling*/
 form{
-    width: 960px;
-    height: 420px;
+    width: 1000px;
     border: 1px solid black;
-    margin: auto;
+    margin: 0 auto;
+}
+.name label{
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.name input, .mail input{
+    display: block;
+    width: 940px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.mail label, .message label{
+    display: block;
+    margin-left: 20px;
+}
+.message input{
+    display: block;
+    width: 940px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.radio-option{
+    font-size: x-large;
+    margin-left: 20px;
+}
+.radio{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+/*Button style*/
+button{
+    display: block;
+    background-color: #d4e9e7;
+    width: 55px;
+    height: 40px;
+    padding: 15px, 15px, 15px, 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 footer{
     text-align: right;
