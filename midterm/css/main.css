@@ -6,6 +6,7 @@ body{
 .wrapper{
     background-color: #d4e9e7;
     width: 1020px;
+    height: 1650px;
     margin: 0 auto;
 }
 
@@ -28,7 +29,7 @@ h1{
     position: absolute;
     font-size: 50px;
     font-weight: 100;
-    color: white;
+    color: #ffffff;
     left: 350px;
     top: 180px;
 }
@@ -43,12 +44,15 @@ h1{
     text-align: center;
 }
 .nav ul li a{
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
+.nav ul li a:hover{
+    color: #9acd32;
+}
 .nav li:nth-child(2){
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
 }
 
 /* main */
@@ -69,7 +73,7 @@ h1{
 /*contact styling*/
 form{
     width: 1000px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     margin: 0 auto;
 }
 .name label{
@@ -105,19 +109,23 @@ form{
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
 /*Button style*/
 button{
     display: block;
     background-color: #d4e9e7;
-    width: 55px;
-    height: 40px;
-    padding: 15px,15px,15px,15px;
+    width: 70px;
+    height: 55px;
+    padding: 15px;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+button:hover{
+    color: #9acd32;
 }
 footer{
     text-align: right;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 20px;
 }
