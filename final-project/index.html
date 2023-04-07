@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Haru Final Project</title>
 
     <script src="https://kit.fontawesome.com/76e588cc94.js" crossorigin="anonymous"></script>
 
-    <title>Haru Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Pacifico&family=Roboto+Condensed&display=swap" rel="stylesheet">    
+
 </head>
 <body>
     <div class="wrapper">
@@ -24,14 +29,17 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <form action="index.html" method="get">
-                <label for="serch"></label>
-                <input id="serch" type="search" name="search" placeholder="Search">
-                <button type="submit">Serch</button>
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
+            <!--margin 80%-->
+            <div class="serch-form">
+                <form action="index.html" method="get">
+                    <label for="serch"></label>
+                    <input id="serch" type="search" name="search" placeholder="Search">
+                    <button type="submit">Serch</button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
         </header>
-        <!--------------------------Main sections------------------------->
+        <!--------------------------Main sections; all "container" have 80% margin ------------------------->
         <main>
             <!---Home; margin 100%,contents are placed on the image --->
             <section class="home">
@@ -41,6 +49,7 @@
                         <h1 id="home">Welcome to Three Star Media</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quibusdam tenetur eveniet ullam animi alias laborum quam explicabo harum expedita consectetur, modi facilis assumenda amet sed et quia aliquam nulla?</p>
                         <button type="button" class="home-btn">Connect with us</button>
+                        <i class="fa-solid fa-play"></i>
                     </div>
                 </div>
             </section>
@@ -64,31 +73,35 @@
                         <img src="images/digital.jpg" alt="digital">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga dicta repellat, magni dolores ex ducimus quod molestias sunt dignissimos quos ipsam expedita beatae laudantium a doloribus eius eaque minima officia.</p>
                         <button type="button">Digital Plans</button>
-                        <i class="fa-sharp fa-solid fa-triangle"></i>
+                        <i class="fa-solid fa-play"></i>
                     </div>
                     <div class="Content-Marketing">
                         <h3>Marketing</h3>
                         <img src="images/marketing.jpg" alt="marketing">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga dicta repellat, magni dolores ex ducimus quod molestias sunt dignissimos quos ipsam expedita beatae laudantium a doloribus eius eaque minima officia.</p>
                         <button type="button">Marketing Plans</button>
+                        <i class="fa-solid fa-play"></i>
                     </div>
                     <div class="Content-video">
                         <h3>Video Production</h3>
                         <img src="images/video.jpg" alt="video">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga dicta repellat, magni dolores ex ducimus quod molestias sunt dignissimos quos ipsam expedita beatae laudantium a doloribus eius eaque minima officia.</p>
                         <button type="button">Video Plans</button>
+                        <i class="fa-solid fa-play"></i>
                     </div>
                     <div class="Content-web">
                         <h3>Web Development</h3>
                         <img src="images/web.jpg" alt="web">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga dicta repellat, magni dolores ex ducimus quod molestias sunt dignissimos quos ipsam expedita beatae laudantium a doloribus eius eaque minima officia.</p>
                         <button type="button">Web Plans</button>
+                        <i class="fa-solid fa-play"></i>
                     </div>
                     <div class="Content-print">
                         <h3>Print</h3>
                         <img src="images/print.jpg" alt="print">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga dicta repellat, magni dolores ex ducimus quod molestias sunt dignissimos quos ipsam expedita beatae laudantium a doloribus eius eaque minima officia.</p>
                        <button type="button">Print Plans</button>
+                       <i class="fa-solid fa-play"></i>
                     </div>
                 </div>
             </section>
@@ -100,6 +113,7 @@
                         <h2>Our Vision</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequatur quia iure, ipsa et, maiores sequi neque fugit aspernatur deserunt rerum porro quis expedita tenetur nisi recusandae harum voluptate dicta?</p>
                         <button type="button" class="vision-btn">Learn More</button>
+                        <i class="fa-solid fa-play"></i>
                     </div>
                 </div>
             </section>
@@ -126,7 +140,7 @@
                 </div>
             </section>
             <!--Contact Us;margin 90% styling with flexbox-->
-            <section class="team">
+            <section class="contact">
                 <div class="container">
                     <h2 id="contact">Contact Us</h2>
                     <!--Form section-->
@@ -153,7 +167,7 @@
                     <!--chart section-->
                     <div class="content-operation">
                         <h3>Hours of operation</h3>
-                        <table>
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th>Days</th>
