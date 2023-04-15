@@ -56,7 +56,6 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 1.5;
 }
-
 .container{
 	margin: 0 auto;
 }
@@ -66,10 +65,12 @@ h1{
 	font-size: 600%;
 	font-weight: bolder;
 	color: white;
+	margin-top: 100px;
 }
 h2{
 	font-size: 350%;
 	font-weight: bolder;
+	margin-top: 50px;
 }
 h3{
 	font-size: 200%;
@@ -83,9 +84,37 @@ h4{
 	color: white;
 }
 
+/* button styling */
+button{
+	background-color: #222;
+	color: white;
+	height: 80px;
+	width: 200px;
+	margin-top: 10px;
+}
+.hb{
+	background-color: #aa7914;
+	color: #222;
+	margin-top: 10px;
+}
+.vb{
+	background-color: #0f253e;
+	color: white;
+	border: solid 1px #aa7914;
+	margin-top: 10px;
+}
+.fb{
+	background-color: #222;
+	color: #aa7914;
+	width: 60px;
+	height: 35px;
+	margin-top: 20px;
+}
+
 /* header styling */
 header{
 	background-color: #222;
+	color: #aa7914;
 }
 
 /* home section */
