@@ -117,27 +117,7 @@ header{
 }
 
 /* flex styling*/
-.digital {
-	background-color: #ffe6ac;
-	padding: 1em;
-	margin-bottom: 10px;
-}
-.marketing{
-	background-color: #ffe6ac;
-	padding: 1em;
-	margin-bottom: 10px;
-}
-.video{
-	background-color: #ffe6ac;
-	padding: 1em;
-	margin-bottom: 10px;
-}
-.web{
-	background-color: #ffe6ac;
-	padding: 1em;
-	margin-bottom: 10px;
-}
-.print{
+.digital, .marketing, .video, .web, .print {
 	background-color: #ffe6ac;
 	padding: 1em;
 	margin-bottom: 10px;
@@ -164,4 +144,50 @@ header{
 	background-color: #ffe6ac;
 	padding: 1em;
 	margin-bottom: 10px;
+}
+
+/*contact section */
+.contact{
+	padding: 1em;
+}
+.name input, .mail input{
+	display: block;
+	width: 100%;
+}
+.message input{
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+
+/* chart section */
+.table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th{
+	padding: 10px;
+	background: #ffe6ac;
+	border: solid 1px #222;
+}
+td{
+	padding: 10px;
+	border: solid 1px #222;
+}
+
+/* map styling */
+.map{
+	width: 100%;
+	height: 500px;
+}
+
+/* footer */
+footer{
+	padding: 1em;
+	background-color: #222;
+}
+footer p{
+	color: #aa7914;
 }
