@@ -50,13 +50,17 @@ table {
 
 /* mobile styling */
 body{
-	max-width: 1200px;
 	margin: auto;
 	font-family: 'Dancing Script', cursive;
 	font-family: 'Pacifico', cursive;
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 1.5;
 }
+
+.container{
+	margin: 0 auto;
+}
+
 /* main fonts styling */
 h1{
 	font-size: 600%;
@@ -75,21 +79,89 @@ h4{
 	font-size: 120%;
 	font-weight: bolder;
 }
+.white{
+	color: white;
+}
 
 /* header styling */
 header{
 	background-color: #222;
-	height: 700px;
 }
 
 /* home section */
 .home{
 	background-image: url(../images/main-banner.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
+	padding: 1em;
 }
 
 /* about section */
 .about{
 	background-color: #ffe6ac;
+	padding: 1em;
+}
+
+/* service section background*/
+.services{
+	background-color: white;
+	margin: 0 auto;
+}
+.scontainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.scontainer img{
+	width: 100%;
+}
+
+/* flex styling*/
+.digital {
+	background-color: #ffe6ac;
+	padding: 1em;
+	margin-bottom: 10px;
+}
+.marketing{
+	background-color: #ffe6ac;
+	padding: 1em;
+	margin-bottom: 10px;
+}
+.video{
+	background-color: #ffe6ac;
+	padding: 1em;
+	margin-bottom: 10px;
+}
+.web{
+	background-color: #ffe6ac;
+	padding: 1em;
+	margin-bottom: 10px;
+}
+.print{
+	background-color: #ffe6ac;
+	padding: 1em;
+	margin-bottom: 10px;
+}
+
+/* our vision section */
+.vision{
+	background-image: url(../images/vision.jpg);
+	width: 100%;
+	padding: 1em;
+}
+
+/* our team section */
+.tcontainer{
+	display: flex;
+	flex-direction: column;
+}
+.content-john-info{
+	background-color: #ffe6ac;
+	padding: 1em;
+	margin-bottom: 10px;
+}
+.content-bob-info{
+	background-color: #ffe6ac;
+	padding: 1em;
+	margin-bottom: 10px;
 }
