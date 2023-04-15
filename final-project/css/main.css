@@ -114,7 +114,9 @@ button{
 /* header styling */
 header{
 	background-color: #222;
-	color: #aa7914;
+}
+.header{
+	background-color: #aa7914;
 }
 
 /* home section */
