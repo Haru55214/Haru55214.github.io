@@ -157,6 +157,7 @@ header nav ul li a{
 	background-image: url(../images/main-banner.jpg);
 	background-repeat: no-repeat;
 	background-size: auto;
+	background-position: center;
 }
 .home .container .content{
 	background-color: rgba(34, 34, 34, 0.6);
