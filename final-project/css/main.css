@@ -74,16 +74,16 @@ h1{
 }
 h2{
 	font-size: 350%;
-	font-weight: bolder;
+	font-weight: bold;
 	margin-top: 50px;
 }
 h3{
 	font-size: 200%;
-	font-weight: bolder;
+	font-weight: bold;
 }
 h4{
 	font-size: 120%;
-	font-weight: bolder;
+	font-weight: bold;
 }
 .white{
 	color: white;
@@ -121,11 +121,8 @@ header{
 	height: 540px;
 }
 .header{
-	background-color: #aa7914;
+	background-color: #c78c06;
 	height: 160px;
-}
-header nav ul li a{
-	text-decoration: none;
 }
 header nav ul li{
 	list-style: none;
@@ -136,7 +133,9 @@ header nav ul li{
 header nav ul li:nth-child(1){
 	color: white;
 }
-
+header nav ul li a{
+	text-decoration: none;
+}
 .serch-form form{
 	padding: 1em;
 }
@@ -145,11 +144,10 @@ header nav ul li:nth-child(1){
 	height: 30px;
 }
 .fa-magnifying-glass{
-	font-size: 1.7em;
+	font-size: 1.6em;
 	background-color: #222;
 	color: #aa7914;
 	border: solid 1px #aa7914;
-	text-align: justify;
 }
 
 /* home section */
@@ -359,6 +357,9 @@ footer p{
 	.team{
 		margin: 50px;
 	}
+	.team h2{
+		margin-left: 50px;
+	}
 	.tcontainer{
 		margin: 0;
 		display: grid;
@@ -400,6 +401,9 @@ footer p{
 		margin-left: 50px;
 		margin-left: 50px;
 		margin-bottom: 0px;
+	}
+	.contact h2{
+		margin-left: 50px;
 	}
 	.contact-contents{
 		display: grid;
