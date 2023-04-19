@@ -138,6 +138,8 @@ header nav ul li a{
 }
 .serch-form form{
 	padding: 1em;
+	display: flex;
+	align-items: center;
 }
 .serch-form form input{
 	width: 90%;
@@ -307,6 +309,9 @@ footer p{
 	.serch-form form input{
 		width: 180px;
 		height: 30px;
+		margin-top: 50px;
+	}
+	.fa-magnifying-glass{
 		margin-top: 50px;
 	}
 
